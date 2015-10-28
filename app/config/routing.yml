@@ -1,3 +1,7 @@
+site_galleryup:
+    resource: "@SiteGalleryupBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
